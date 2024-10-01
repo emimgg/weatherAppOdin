@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.weather-header {
+    text-align: center;
+    margin: 20px;
+}
+
+.current-weather {
+    text-align: center;
+    margin: 20px;
+}
+
+.forecast {
+    margin: 20px;
+}
+
+.forecast-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.day-card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    min-width: 120px;
+    text-align: center;
+}
+
+.error-message {
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+}
